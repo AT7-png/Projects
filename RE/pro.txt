@@ -1,0 +1,18 @@
+QT += core gui
+
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+
+LIBS += -lwiringPi -lwiringPiDev
+
+SOURCES += \
+    main.cpp \
+    mainwindow.cpp \
+    temperature.cpp \
+    lcdcontroller.cpp \
+    ledcontroller.cpp
+
+HEADERS += \
+    mainwindow.h \
+    temperature.h \
+    lcdcontroller.h \
+    ledcontroller.h
